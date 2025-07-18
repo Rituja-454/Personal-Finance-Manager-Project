@@ -1,0 +1,40 @@
+.custom-nav {
+  color: black !important;
+  font-weight: bold;
+  font-size: 1.0rem;
+  /* transition: font-size 0.1s ease-in-out; */
+}
+
+
+.income-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.income-box {
+  width: 450px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+* {
+  font-family: "popins";
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 15px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-link.active-tab {
+  background-color: rgba(0, 150, 255, 0.2);
+  color: #007bff;
+  font-weight: bold;
+}
+
